@@ -78,7 +78,7 @@ void main_menu()
 		case 'C':  
 		case 'c':	
 				system("cls");
-				printf("\nThis program was developed by Mr. Suyash Gupta on 20th, 21st, 22nd, 25th, and 26th of January 2019.\n\nPress M to go to the main menu. ");
+				printf("\nThis program was developed by Suyash on in the month of January 2019.\n\nIf you make an edit to the program, go ahead and add your name here!\n\nPress M to go to the main menu. ");
 				fflush(stdin);
 				scanf("%c",&what);
 				
@@ -149,7 +149,7 @@ void main_menu()
 		case 'I':
 		case 'i':
 				 system("cls");
-				 printf("Interesting Information!\n\n-->This game contains only a few questions as the developer got bored of adding questions.\n\n-->Developement of this game took over 10 hours of work.\n   (primaraly because the developer is new to this field and had to learn quite a few concepts while making the game.)\n\n-->Even though this game is pure black and white with no fancy graphics,\n   making this was arguably as difficult as the super interactive and fancy(with a lot of graphics)project\n   that the developer prepared in class 12 (in IP).\n   The reason is that it was written in java and SQL while this is written in c language.");
+				 printf("Interesting Information!\n\n-->This game contains only a few questions as the developer got bored of adding questions.\n  You are welcome to add more!\n\n-->Developement of this game took over 10 hours of work.\n   (primaraly because the developer is new to this field and had to learn quite a few concepts while making the game.)");
 			 	 printf("\n\nPress E to exit\n\nPress any other key to go to main menu.");
 				 fflush(stdin);
 				 scanf("%s",&input);
@@ -319,9 +319,9 @@ void play()
 	ask_question(600,"What is India's highest civillian honour?", "Paramveer chakra", "Bharat Ratna", "Mahaveer Ratna", "Tejaswi Chakra", 'b', 'B');
 	ask_question(1000,"Who is also called the \"Missile man\" of India?", "Abdul kalam Azad", "A.P.J. Abdul Kalam Azad", "A.P.J Abdul Kalam", "Abdul Kalam", 'c', 'C');
 	ask_question(2500,"What is the real colour of sunlight?", "White", "Blue", "Yellow", "Colourless", 'a', 'A');
-	ask_question(5000,"What was Gandhi\'s middle name?", "Karamvir", "Karamdas", "Karamchandra", "Karamkhot", 'c', 'C');
+	ask_question(5000,"What was Mahatma Gandhi\'s middle name?", "Karamvir", "Karamdas", "Karamchandra", "Karamkhot", 'c', 'C');
 	ask_question(7500,"Why does most part of earth look blue from the space?", "Because clouds and sky are blue", "Because of god\'s will", "No one knows", "Because a large part of earth is covered in water", 'd', 'D');
-	ask_question(10000,"habibi", "habibi", "habibi", "habibi", "habibi", 'x', 'x');
+	ask_question(10000,"what\'s the answer bruh??", "habibi", "habibi", "habibi", "habibi", 'x', 'x');
 	//ask_question(15000,"", "", "", "", "", '', '');
 	//ask_question(20000,"", "", "", "", "", '', '');
 	//ask_question(30000,"", "", "", "", "", '', '');
