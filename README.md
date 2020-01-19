@@ -6,4 +6,6 @@ The highest score and along with the name of the scorer is stored.
 
 Care has been taken to avoid re-writing code by use of functions throughout the program.
 
+Feel free to add more functionality or more questions to the program.
+
 #### cheers!
